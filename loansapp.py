@@ -10,7 +10,7 @@ def get_loan_info():
     loan_application = {}
     data = request.form
     loan_application['Dependents'] = data['My_Dependents']
-    loan_application['Education'] = data['Education']
+    loan_application['Education'] = data['What is your Education']
     loan_application['ApplicantIncome'] = data['ApplicantIncome']
     loan_application['LoanAmount'] = data['LoanAmount']
     loan_application['Credit_History'] = data['Credit_History']
