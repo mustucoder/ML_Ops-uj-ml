@@ -9,7 +9,7 @@ def get_loan_info():
     #loan_application = request.get_json()
     loan_application = {}
     data = request.form
-    loan_application['Dependents'] = data['Dependents']
+    loan_application['Dependents'] = data['My_Dependents']
     loan_application['Education'] = data['Education']
     loan_application['ApplicantIncome'] = data['ApplicantIncome']
     loan_application['LoanAmount'] = data['LoanAmount']
