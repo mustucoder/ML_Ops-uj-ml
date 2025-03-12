@@ -1,7 +1,7 @@
 from flask import Blueprint,redirect,url_for;
 
 app2 = Blueprint('app2', __name__)
-@app2.route('/admin')
+@app2.route('/admin 11')
 def admin():
     return 'Hello Admin'
 
